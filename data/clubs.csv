@@ -1,0 +1,13 @@
+club_id,club_name,category,founded_year,faculty_mentor,meeting_day
+C01,Coding Club,Technical,2015,Dr. Rajesh Sharma,Fri
+C02,Robotics Club,Technical,2016,Prof. Anil Kumar,Fri
+C03,Music Club,Cultural,2012,Ms. Neelam Kaur,Sat
+C04,Dance Club,Cultural,2013,Ms. Rupinder Gill,Thu
+C05,Drama Club,Cultural,2011,Dr. Sanjay Mishra,Tue
+C06,Sports Club,Sports,2010,Mr. Balwinder Singh,Wed
+C07,Photography Club,Creative,2017,Ms. Pooja Arora,Mon
+C08,Art Club,Creative,2014,Ms. Kiran Bedi,Tue
+C09,Literature Club,Cultural,2012,Dr. Harleen Dhillon,Fri
+C10,Entrepreneurship Cell,Professional,2018,Dr. Vivek Malhotra,Mon
+C11,Gaming Club,Recreation,2019,Mr. Rohit Verma,Mon
+C12,Social Service Club,Service,2009,Dr. Meena Joshi,Fri

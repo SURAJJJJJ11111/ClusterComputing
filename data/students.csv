@@ -1,0 +1,251 @@
+student_id,name,gender,program,year,city,state,cgpa
+S001,Pooja Mehta,Female,MCA,3,Amritsar,Punjab,8.01
+S002,Payal Saini,Female,B.Tech CSE,2,Ranchi,Jharkhand,8.45
+S003,Yash Gupta,Male,B.Sc Data Science,2,Amritsar,Punjab,6.83
+S004,Arjun Dhillon,Male,B.Tech CSE,4,Ranchi,Jharkhand,9.27
+S005,Karan Saini,Male,B.Com,2,Patna,Bihar,8.02
+S006,Arjun Verma,Male,B.Tech ME,1,Amritsar,Punjab,6.87
+S007,Kunal Sharma,Male,B.Tech ME,4,Ranchi,Jharkhand,9.35
+S008,Nikhil Joshi,Male,B.Tech ECE,1,Amritsar,Punjab,7.43
+S009,Payal Joshi,Female,B.Tech CSE,1,Chandigarh,Chandigarh,6.34
+S010,Ayesha Joshi,Female,BBA,1,Lucknow,Uttar Pradesh,9.32
+S011,Pooja Prajapati,Female,B.Tech ECE,1,Amritsar,Punjab,8.68
+S012,Raj Bhatia,Male,MCA,1,Amritsar,Punjab,8.24
+S013,Aanchal Tiwari,Female,BCA,2,Ludhiana,Punjab,7.55
+S014,Kiran Saini,Female,B.Com,1,Lucknow,Uttar Pradesh,9.67
+S015,Palak Yadav,Female,BCA,3,Bhopal,Madhya Pradesh,7.31
+S016,Khushi Jain,Female,MCA,3,Ranchi,Jharkhand,8.8
+S017,Dev Thakur,Male,BCA,1,Amritsar,Punjab,6.7
+S018,Kiran Mehta,Female,BCA,2,Ludhiana,Punjab,7.77
+S019,Manav Joshi,Male,B.Tech ECE,4,Bhopal,Madhya Pradesh,8.19
+S020,Sourav Rana,Male,MCA,3,Jaipur,Rajasthan,9.37
+S021,Simran Prajapati,Female,B.Tech ME,2,Ranchi,Jharkhand,7.85
+S022,Ankit Saini,Male,B.Tech CSE,3,Ludhiana,Punjab,6.66
+S023,Nikita Jain,Female,BBA,2,Delhi,Delhi,6.84
+S024,Aanchal Mehta,Female,BBA,4,Ludhiana,Punjab,7.01
+S025,Manpreet Tiwari,Female,B.Tech ECE,4,Chandigarh,Chandigarh,8.18
+S026,Mohit Prajapati,Male,BBA,1,Jaipur,Rajasthan,6.79
+S027,Muskan Pandey,Female,B.Tech CSE,1,Lucknow,Uttar Pradesh,8.83
+S028,Ankit Dhillon,Male,B.Sc Data Science,3,Jaipur,Rajasthan,8.12
+S029,Payal Sharma,Female,B.Tech ME,4,Chandigarh,Chandigarh,6.39
+S030,Simran Mehta,Female,B.Tech CSE,2,Delhi,Delhi,7.34
+S031,Rohan Mishra,Male,B.Tech ME,4,Patna,Bihar,6.06
+S032,Dev Chauhan,Male,BBA,4,Amritsar,Punjab,6.15
+S033,Simran Bhatia,Female,B.Tech ECE,3,Delhi,Delhi,7.35
+S034,Sourav Pandey,Male,B.Com,3,Patna,Bihar,7.85
+S035,Karan Kumar,Male,MCA,3,Patna,Bihar,6.44
+S036,Isha Kaur,Female,B.Tech ECE,1,Amritsar,Punjab,9.17
+S037,Jasleen Kapoor,Female,B.Sc Data Science,1,Patna,Bihar,6.58
+S038,Ananya Kapoor,Female,B.Tech ECE,1,Kolkata,West Bengal,9.46
+S039,Shreya Tiwari,Female,B.Sc Data Science,2,Delhi,Delhi,8.81
+S040,Tanvi Mishra,Female,B.Com,3,Lucknow,Uttar Pradesh,8.48
+S041,Muskan Bhatia,Female,BCA,1,Amritsar,Punjab,8.81
+S042,Dev Pandey,Male,B.Sc Data Science,3,Bhopal,Madhya Pradesh,6.93
+S043,Riya Gill,Female,B.Tech ECE,3,Ludhiana,Punjab,9.78
+S044,Neha Joshi,Female,B.Tech CSE,3,Shimla,Himachal Pradesh,8.39
+S045,Amit Jain,Male,B.Com,4,Lucknow,Uttar Pradesh,8.42
+S046,Jashan Yadav,Male,BBA,3,Jalandhar,Punjab,5.88
+S047,Ritika Bhatia,Female,B.Com,1,Ludhiana,Punjab,9.73
+S048,Pranav Joshi,Male,B.Tech ECE,1,Jaipur,Rajasthan,9.05
+S049,Karan Sethi,Male,BBA,4,Ranchi,Jharkhand,9.68
+S050,Riya Kapoor,Female,B.Tech ME,1,Jalandhar,Punjab,9.5
+S051,Komal Chauhan,Female,BCA,3,Jaipur,Rajasthan,8.75
+S052,Suraj Pandey,Male,B.Tech ME,3,Shimla,Himachal Pradesh,6.63
+S053,Khushi Kaur,Female,B.Com,1,Jaipur,Rajasthan,6.78
+S054,Harpreet Sharma,Male,B.Tech ECE,1,Bhopal,Madhya Pradesh,9.01
+S055,Nikita Dhillon,Female,BCA,2,Patna,Bihar,6.32
+S056,Neha Prajapati,Female,B.Tech CSE,4,Patna,Bihar,6.12
+S057,Sourav Bhatia,Male,B.Sc Data Science,2,Ludhiana,Punjab,6.16
+S058,Sneha Mehta,Female,B.Tech ME,3,Ludhiana,Punjab,6.13
+S059,Vivek Kumar,Male,B.Com,2,Amritsar,Punjab,7.97
+S060,Divya Yadav,Female,B.Tech ECE,3,Delhi,Delhi,7.84
+S061,Divya Chauhan,Female,B.Com,3,Jaipur,Rajasthan,8.93
+S062,Neha Verma,Female,B.Com,2,Jalandhar,Punjab,6.96
+S063,Nisha Tiwari,Female,B.Com,3,Amritsar,Punjab,6.72
+S064,Anjali Verma,Female,BBA,3,Shimla,Himachal Pradesh,6.84
+S065,Rahul Yadav,Male,B.Com,4,Jalandhar,Punjab,9.5
+S066,Kavya Saini,Female,MCA,2,Ludhiana,Punjab,7.42
+S067,Sourav Verma,Male,B.Com,2,Jalandhar,Punjab,6.58
+S068,Ananya Joshi,Female,MCA,4,Chandigarh,Chandigarh,6.96
+S069,Priya Patel,Female,BBA,2,Kolkata,West Bengal,9.39
+S070,Naveen Sethi,Male,B.Tech ME,1,Ranchi,Jharkhand,8.93
+S071,Manpreet Singh,Female,B.Tech CSE,4,Jaipur,Rajasthan,8.98
+S072,Isha Sethi,Female,B.Com,2,Shimla,Himachal Pradesh,7.59
+S073,Manav Dhillon,Male,B.Tech CSE,1,Jaipur,Rajasthan,6.57
+S074,Priya Singh,Female,B.Sc Data Science,1,Bhopal,Madhya Pradesh,8.18
+S075,Pooja Pandey,Female,B.Sc Data Science,3,Delhi,Delhi,9.19
+S076,Abhishek Bansal,Male,B.Tech CSE,1,Chandigarh,Chandigarh,7.53
+S077,Simran Dhillon,Female,B.Com,2,Ludhiana,Punjab,5.82
+S078,Mohit Sethi,Male,B.Tech CSE,1,Lucknow,Uttar Pradesh,6.17
+S079,Yash Sethi,Male,BCA,2,Chandigarh,Chandigarh,6.23
+S080,Tanvi Gupta,Female,B.Tech CSE,1,Amritsar,Punjab,6.51
+S081,Sourav Sharma,Male,MCA,3,Ludhiana,Punjab,6.11
+S082,Riya Singh,Female,B.Sc Data Science,3,Amritsar,Punjab,9.07
+S083,Yash Jain,Male,B.Sc Data Science,2,Jaipur,Rajasthan,6.97
+S084,Karan Singh,Male,B.Com,4,Lucknow,Uttar Pradesh,7.14
+S085,Nikita Sharma,Female,BBA,1,Bhopal,Madhya Pradesh,8.83
+S086,Neha Jain,Female,B.Tech ME,2,Delhi,Delhi,7.59
+S087,Aditya Prajapati,Male,BCA,1,Jaipur,Rajasthan,8.35
+S088,Sahil Gupta,Male,BCA,4,Bhopal,Madhya Pradesh,8.82
+S089,Jasleen Sethi,Female,BCA,1,Shimla,Himachal Pradesh,7.66
+S090,Tushar Pandey,Male,B.Sc Data Science,4,Bhopal,Madhya Pradesh,9.02
+S091,Nikita Rana,Female,MCA,1,Kolkata,West Bengal,6.24
+S092,Raj Dhillon,Male,BBA,1,Bhopal,Madhya Pradesh,9.41
+S093,Sourav Chauhan,Male,BBA,4,Jalandhar,Punjab,8.56
+S094,Tanya Arora,Female,B.Sc Data Science,1,Chandigarh,Chandigarh,9.78
+S095,Dev Dhillon,Male,B.Tech ME,2,Jalandhar,Punjab,7.36
+S096,Ananya Sandhu,Female,B.Sc Data Science,2,Chandigarh,Chandigarh,9.43
+S097,Nikhil Reddy,Male,BBA,1,Jaipur,Rajasthan,9.5
+S098,Lakshay Chauhan,Male,B.Tech ECE,4,Shimla,Himachal Pradesh,8.34
+S099,Shreya Sharma,Female,B.Tech ECE,4,Ranchi,Jharkhand,9.72
+S100,Arjun Malhotra,Male,BBA,1,Bhopal,Madhya Pradesh,8.33
+S101,Sahil Yadav,Male,BCA,2,Bhopal,Madhya Pradesh,7.53
+S102,Nisha Verma,Female,B.Tech ECE,3,Delhi,Delhi,6.71
+S103,Ankit Kapoor,Male,B.Com,2,Patna,Bihar,8.0
+S104,Sourav Gupta,Male,B.Tech ECE,2,Kolkata,West Bengal,8.14
+S105,Anjali Joshi,Female,B.Tech CSE,4,Patna,Bihar,9.13
+S106,Tanvi Kumar,Female,B.Tech ECE,1,Jalandhar,Punjab,8.15
+S107,Tanya Dhillon,Female,B.Sc Data Science,2,Jaipur,Rajasthan,9.4
+S108,Lakshay Pandey,Male,MCA,4,Jaipur,Rajasthan,8.62
+S109,Anjali Gill,Female,MCA,3,Bhopal,Madhya Pradesh,8.78
+S110,Manav Yadav,Male,B.Sc Data Science,4,Lucknow,Uttar Pradesh,8.59
+S111,Kavya Reddy,Female,B.Tech CSE,4,Chandigarh,Chandigarh,7.64
+S112,Anjali Gupta,Female,B.Tech ME,1,Amritsar,Punjab,8.61
+S113,Rahul Sandhu,Male,MCA,2,Jaipur,Rajasthan,7.21
+S114,Yash Sharma,Male,BBA,2,Lucknow,Uttar Pradesh,9.27
+S115,Komal Sharma,Female,BBA,4,Kolkata,West Bengal,6.73
+S116,Manpreet Gill,Female,B.Tech CSE,2,Bhopal,Madhya Pradesh,6.12
+S117,Vikram Yadav,Male,MCA,2,Lucknow,Uttar Pradesh,8.36
+S118,Isha Gill,Female,B.Tech ECE,3,Amritsar,Punjab,7.31
+S119,Mohit Reddy,Male,B.Tech ME,1,Ranchi,Jharkhand,5.92
+S120,Pooja Jain,Female,B.Sc Data Science,2,Kolkata,West Bengal,9.45
+S121,Komal Arora,Female,B.Tech ECE,2,Kolkata,West Bengal,9.3
+S122,Nikita Kapoor,Female,MCA,1,Jaipur,Rajasthan,6.9
+S123,Pooja Arora,Female,B.Tech ME,4,Ludhiana,Punjab,7.61
+S124,Karan Bhatia,Male,B.Com,2,Jaipur,Rajasthan,6.63
+S125,Jashan Dhillon,Male,BCA,1,Lucknow,Uttar Pradesh,6.28
+S126,Ishaan Patel,Male,BBA,1,Jaipur,Rajasthan,6.94
+S127,Manav Malhotra,Male,B.Tech CSE,1,Bhopal,Madhya Pradesh,7.14
+S128,Harpreet Dhillon,Male,B.Sc Data Science,3,Amritsar,Punjab,9.43
+S129,Gurpreet Mehta,Male,BBA,4,Kolkata,West Bengal,9.41
+S130,Riya Malhotra,Female,BCA,4,Delhi,Delhi,8.91
+S131,Sakshi Reddy,Female,BBA,1,Jaipur,Rajasthan,7.35
+S132,Manpreet Kumar,Female,B.Tech ECE,1,Delhi,Delhi,8.43
+S133,Raj Thakur,Male,BCA,2,Jalandhar,Punjab,9.04
+S134,Manav Mishra,Male,BBA,4,Jalandhar,Punjab,8.98
+S135,Lakshay Malhotra,Male,MCA,4,Bhopal,Madhya Pradesh,7.25
+S136,Lakshay Kapoor,Male,B.Tech ECE,2,Shimla,Himachal Pradesh,7.16
+S137,Pooja Reddy,Female,B.Tech CSE,2,Delhi,Delhi,6.98
+S138,Priya Bhatia,Female,B.Tech CSE,4,Kolkata,West Bengal,7.3
+S139,Tanvi Saini,Female,B.Tech ECE,1,Patna,Bihar,7.42
+S140,Swati Yadav,Female,B.Tech CSE,4,Jalandhar,Punjab,7.22
+S141,Rahul Gill,Male,B.Sc Data Science,1,Jalandhar,Punjab,7.47
+S142,Suraj Gupta,Male,BBA,2,Ludhiana,Punjab,6.23
+S143,Pooja Mishra,Female,B.Tech ME,1,Shimla,Himachal Pradesh,9.48
+S144,Sourav Kumar,Male,B.Tech ECE,3,Bhopal,Madhya Pradesh,6.03
+S145,Rahul Mehta,Male,B.Tech ECE,4,Ranchi,Jharkhand,6.48
+S146,Tanvi Prajapati,Female,MCA,1,Chandigarh,Chandigarh,5.97
+S147,Deepak Malhotra,Male,B.Tech ECE,4,Ranchi,Jharkhand,7.54
+S148,Kavya Sethi,Female,MCA,4,Jaipur,Rajasthan,7.35
+S149,Lakshay Mehta,Male,B.Tech CSE,2,Ranchi,Jharkhand,7.52
+S150,Nisha Reddy,Female,BBA,1,Patna,Bihar,6.45
+S151,Tushar Jain,Male,BBA,4,Jaipur,Rajasthan,8.52
+S152,Komal Tiwari,Female,B.Tech ECE,4,Ranchi,Jharkhand,9.29
+S153,Sahil Arora,Male,BBA,3,Shimla,Himachal Pradesh,7.1
+S154,Ishaan Arora,Male,BBA,1,Jaipur,Rajasthan,8.75
+S155,Yash Verma,Male,MCA,2,Patna,Bihar,8.19
+S156,Amit Gill,Male,BBA,1,Chandigarh,Chandigarh,8.43
+S157,Komal Kumar,Female,BBA,4,Delhi,Delhi,7.12
+S158,Aanchal Pandey,Female,B.Tech ME,2,Shimla,Himachal Pradesh,8.37
+S159,Kiran Nair,Female,B.Tech ME,3,Amritsar,Punjab,7.01
+S160,Mehak Sharma,Female,MCA,2,Amritsar,Punjab,9.05
+S161,Jashan Rana,Male,BBA,4,Jalandhar,Punjab,6.58
+S162,Yash Yadav,Male,B.Tech ME,3,Delhi,Delhi,5.9
+S163,Jashan Sethi,Male,B.Tech CSE,3,Bhopal,Madhya Pradesh,7.43
+S164,Mohit Jain,Male,BBA,1,Delhi,Delhi,6.02
+S165,Pranav Rana,Male,B.Tech ECE,1,Chandigarh,Chandigarh,9.59
+S166,Palak Malhotra,Female,B.Tech ECE,4,Ludhiana,Punjab,7.86
+S167,Tushar Singh,Male,B.Tech ME,2,Ranchi,Jharkhand,8.28
+S168,Sahil Sharma,Male,B.Tech ECE,2,Ranchi,Jharkhand,6.48
+S169,Amit Arora,Male,BCA,1,Ludhiana,Punjab,6.62
+S170,Kunal Sethi,Male,B.Tech ME,1,Kolkata,West Bengal,8.31
+S171,Neha Nair,Female,BCA,3,Delhi,Delhi,9.07
+S172,Nisha Sharma,Female,BCA,3,Patna,Bihar,9.62
+S173,Ankit Rana,Male,MCA,3,Jaipur,Rajasthan,6.27
+S174,Nikita Tiwari,Female,MCA,3,Delhi,Delhi,7.11
+S175,Karan Prajapati,Male,BBA,4,Kolkata,West Bengal,9.22
+S176,Nikhil Singh,Male,BBA,4,Jalandhar,Punjab,9.51
+S177,Payal Gupta,Female,B.Tech CSE,3,Kolkata,West Bengal,7.79
+S178,Shreya Gupta,Female,B.Tech ECE,3,Delhi,Delhi,9.08
+S179,Tanvi Rana,Female,MCA,4,Shimla,Himachal Pradesh,9.13
+S180,Priya Mishra,Female,BCA,3,Shimla,Himachal Pradesh,7.76
+S181,Arjun Mishra,Male,B.Sc Data Science,1,Shimla,Himachal Pradesh,8.09
+S182,Dev Patel,Male,B.Com,2,Lucknow,Uttar Pradesh,9.29
+S183,Aditya Mishra,Male,B.Com,3,Bhopal,Madhya Pradesh,9.58
+S184,Rohan Arora,Male,BBA,1,Shimla,Himachal Pradesh,9.09
+S185,Naveen Joshi,Male,B.Tech ME,3,Kolkata,West Bengal,9.38
+S186,Divya Rana,Female,B.Tech CSE,4,Ranchi,Jharkhand,7.34
+S187,Manav Reddy,Male,B.Com,3,Ludhiana,Punjab,6.36
+S188,Naveen Arora,Male,B.Tech ECE,3,Delhi,Delhi,8.9
+S189,Payal Chauhan,Female,BCA,2,Lucknow,Uttar Pradesh,6.4
+S190,Sneha Arora,Female,B.Com,2,Jaipur,Rajasthan,7.79
+S191,Isha Chauhan,Female,BCA,1,Jaipur,Rajasthan,7.01
+S192,Ankit Reddy,Male,B.Tech CSE,2,Ludhiana,Punjab,7.78
+S193,Nisha Arora,Female,B.Tech CSE,1,Ranchi,Jharkhand,9.5
+S194,Rahul Gupta,Male,MCA,2,Lucknow,Uttar Pradesh,7.33
+S195,Jasleen Saini,Female,B.Tech CSE,3,Kolkata,West Bengal,7.26
+S196,Aditya Sethi,Male,BBA,1,Bhopal,Madhya Pradesh,7.07
+S197,Aditya Singh,Male,B.Sc Data Science,2,Bhopal,Madhya Pradesh,6.19
+S198,Manpreet Bhatia,Female,B.Tech ECE,2,Jalandhar,Punjab,7.62
+S199,Rahul Mishra,Male,B.Tech ME,3,Patna,Bihar,7.9
+S200,Ritika Yadav,Female,B.Tech CSE,1,Shimla,Himachal Pradesh,8.72
+S201,Ayesha Sandhu,Female,MCA,4,Ranchi,Jharkhand,8.35
+S202,Tushar Gupta,Male,B.Com,4,Jaipur,Rajasthan,8.46
+S203,Mohit Sharma,Male,BCA,2,Lucknow,Uttar Pradesh,7.16
+S204,Rohan Pandey,Male,B.Tech CSE,3,Kolkata,West Bengal,6.91
+S205,Neha Malhotra,Female,BCA,2,Ludhiana,Punjab,6.71
+S206,Mehak Gill,Female,B.Tech ME,1,Jalandhar,Punjab,7.22
+S207,Nikita Bansal,Female,B.Tech ECE,3,Kolkata,West Bengal,6.76
+S208,Vikram Bhatia,Male,BCA,1,Patna,Bihar,7.68
+S209,Dev Prajapati,Male,MCA,1,Bhopal,Madhya Pradesh,6.86
+S210,Neha Mehta,Female,B.Tech CSE,2,Shimla,Himachal Pradesh,9.06
+S211,Payal Arora,Female,B.Tech ME,3,Lucknow,Uttar Pradesh,7.74
+S212,Ishaan Kaur,Male,MCA,4,Lucknow,Uttar Pradesh,9.75
+S213,Jashan Patel,Male,B.Com,1,Shimla,Himachal Pradesh,9.12
+S214,Sahil Bansal,Male,B.Tech ECE,2,Patna,Bihar,8.63
+S215,Isha Pandey,Female,BBA,2,Ranchi,Jharkhand,6.98
+S216,Raj Singh,Male,B.Tech ECE,1,Kolkata,West Bengal,6.76
+S217,Vivek Gupta,Male,BCA,4,Lucknow,Uttar Pradesh,8.88
+S218,Amit Gupta,Male,MCA,1,Shimla,Himachal Pradesh,7.47
+S219,Karan Mehta,Male,BCA,4,Bhopal,Madhya Pradesh,8.6
+S220,Komal Sethi,Female,BBA,3,Jaipur,Rajasthan,9.54
+S221,Nikhil Tiwari,Male,B.Tech CSE,2,Ludhiana,Punjab,6.23
+S222,Harpreet Kapoor,Male,B.Tech ECE,4,Lucknow,Uttar Pradesh,8.35
+S223,Vikram Reddy,Male,MCA,2,Chandigarh,Chandigarh,6.31
+S224,Manav Prajapati,Male,B.Sc Data Science,3,Chandigarh,Chandigarh,6.26
+S225,Sakshi Singh,Female,BBA,3,Amritsar,Punjab,9.07
+S226,Raj Bansal,Male,BBA,4,Jaipur,Rajasthan,6.44
+S227,Rahul Thakur,Male,BCA,4,Chandigarh,Chandigarh,8.06
+S228,Deepak Nair,Male,MCA,3,Kolkata,West Bengal,5.85
+S229,Pranav Jain,Male,B.Tech ECE,1,Ranchi,Jharkhand,8.8
+S230,Komal Joshi,Female,B.Sc Data Science,3,Lucknow,Uttar Pradesh,6.69
+S231,Aanchal Kapoor,Female,MCA,2,Shimla,Himachal Pradesh,8.0
+S232,Sahil Sethi,Male,BCA,4,Bhopal,Madhya Pradesh,8.21
+S233,Ritika Kapoor,Female,BCA,1,Patna,Bihar,8.02
+S234,Tushar Tiwari,Male,B.Com,3,Amritsar,Punjab,5.87
+S235,Priya Pandey,Female,B.Tech ECE,2,Patna,Bihar,5.98
+S236,Jashan Gill,Male,B.Sc Data Science,3,Ranchi,Jharkhand,7.76
+S237,Mehak Bansal,Female,B.Tech ME,4,Delhi,Delhi,6.87
+S238,Abhishek Gupta,Male,BCA,1,Delhi,Delhi,8.26
+S239,Khushi Nair,Female,MCA,3,Ludhiana,Punjab,7.11
+S240,Ananya Sharma,Female,B.Tech ECE,1,Amritsar,Punjab,8.81
+S241,Palak Sethi,Female,B.Com,1,Amritsar,Punjab,6.16
+S242,Mehak Joshi,Female,BCA,1,Delhi,Delhi,9.38
+S243,Raj Arora,Male,B.Sc Data Science,3,Delhi,Delhi,8.61
+S244,Jasleen Verma,Female,B.Sc Data Science,2,Kolkata,West Bengal,9.11
+S245,Sakshi Joshi,Female,B.Tech ME,4,Jalandhar,Punjab,7.86
+S246,Rohan Patel,Male,B.Com,4,Jalandhar,Punjab,6.53
+S247,Neha Kapoor,Female,BBA,1,Jalandhar,Punjab,8.68
+S248,Nisha Singh,Female,B.Tech ME,1,Shimla,Himachal Pradesh,6.66
+S249,Yash Singh,Male,B.Sc Data Science,1,Ludhiana,Punjab,7.6
+S250,Jashan Chauhan,Male,BCA,1,Jalandhar,Punjab,9.7

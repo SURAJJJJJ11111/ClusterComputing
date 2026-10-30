@@ -1,0 +1,108 @@
+26/10/30 05:53:01 WARN Utils: Your hostname, vm resolves to a loopback address: 127.0.0.1; using 192.0.2.2 instead (on interface eth0)
+26/10/30 05:53:01 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/30 05:53:02 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+================================================================
+ 1. DATASET LOADED
+================================================================
+students.csv    :  250 rows x 8 columns
+clubs.csv       :   12 rows x 6 columns
+memberships.csv :  438 rows x 6 columns
++----------+-------------+------+-----------------+----+--------+---------+----+
+|student_id|name         |gender|program          |year|city    |state    |cgpa|
++----------+-------------+------+-----------------+----+--------+---------+----+
+|S001      |Pooja Mehta  |Female|MCA              |3   |Amritsar|Punjab   |8.01|
+|S002      |Payal Saini  |Female|B.Tech CSE       |2   |Ranchi  |Jharkhand|8.45|
+|S003      |Yash Gupta   |Male  |B.Sc Data Science|2   |Amritsar|Punjab   |6.83|
+|S004      |Arjun Dhillon|Male  |B.Tech CSE       |4   |Ranchi  |Jharkhand|9.27|
+|S005      |Karan Saini  |Male  |B.Com            |2   |Patna   |Bihar    |8.02|
++----------+-------------+------+-----------------+----+--------+---------+----+
+only showing top 5 rows
+
+================================================================
+ 2. BIPARTITE GRAPH CONSTRUCTED
+================================================================
+Vertices : 262  (250 students + 12 clubs)
+Edges    : 438  (student -> club memberships)
+================================================================
+ 3. MOST POPULAR CLUB
+================================================================
+Most popular club: Coding Club with 54 members
+
+Club popularity ranking:
++---------------------+------------+-------+--------------+
+|club_name            |category    |members|avg_attendance|
++---------------------+------------+-------+--------------+
+|Coding Club          |Technical   |54     |70.4          |
+|Sports Club          |Sports      |53     |75.9          |
+|Music Club           |Cultural    |42     |72.0          |
+|Gaming Club          |Recreation  |42     |75.8          |
+|Dance Club           |Cultural    |41     |68.6          |
+|Entrepreneurship Cell|Professional|37     |72.9          |
+|Robotics Club        |Technical   |34     |74.0          |
+|Photography Club     |Creative    |34     |74.0          |
+|Drama Club           |Cultural    |31     |72.1          |
+|Social Service Club  |Service     |26     |69.3          |
+|Art Club             |Creative    |26     |74.2          |
+|Literature Club      |Cultural    |18     |71.4          |
++---------------------+------------+-------+--------------+
+
+================================================================
+ 4. STUDENTS WHO ARE MEMBERS OF MULTIPLE CLUBS
+================================================================
+141 of 250 students are in more than one club.
+
+Top 15 (most clubs first):
++----------+---------------+-----------------+---------+-------------------------------------------------------------------+
+|student_id|name           |program          |num_clubs|clubs                                                              |
++----------+---------------+-----------------+---------+-------------------------------------------------------------------+
+|S030      |Simran Mehta   |B.Tech CSE       |4        |Art Club, Coding Club, Gaming Club, Sports Club                    |
+|S031      |Rohan Mishra   |B.Tech ME        |4        |Art Club, Dance Club, Drama Club, Photography Club                 |
+|S080      |Tanvi Gupta    |B.Tech CSE       |4        |Dance Club, Drama Club, Music Club, Social Service Club            |
+|S107      |Tanya Dhillon  |B.Sc Data Science|4        |Coding Club, Drama Club, Photography Club, Sports Club             |
+|S131      |Sakshi Reddy   |BBA              |4        |Coding Club, Literature Club, Music Club, Photography Club         |
+|S145      |Rahul Mehta    |B.Tech ECE       |4        |Coding Club, Entrepreneurship Cell, Photography Club, Robotics Club|
+|S153      |Sahil Arora    |BBA              |4        |Art Club, Coding Club, Dance Club, Sports Club                     |
+|S190      |Sneha Arora    |B.Com            |4        |Coding Club, Dance Club, Photography Club, Robotics Club           |
+|S212      |Ishaan Kaur    |MCA              |4        |Drama Club, Entrepreneurship Cell, Gaming Club, Sports Club        |
+|S225      |Sakshi Singh   |BBA              |4        |Coding Club, Entrepreneurship Cell, Gaming Club, Music Club        |
+|S016      |Khushi Jain    |MCA              |3        |Drama Club, Music Club, Robotics Club                              |
+|S017      |Dev Thakur     |BCA              |3        |Drama Club, Gaming Club, Sports Club                               |
+|S020      |Sourav Rana    |MCA              |3        |Dance Club, Gaming Club, Photography Club                          |
+|S025      |Manpreet Tiwari|B.Tech ECE       |3        |Music Club, Photography Club, Sports Club                          |
+|S032      |Dev Chauhan    |BBA              |3        |Coding Club, Robotics Club, Sports Club                            |
++----------+---------------+-----------------+---------+-------------------------------------------------------------------+
+only showing top 15 rows
+
+Clubs-per-student distribution:
++---------+--------+
+|num_clubs|students|
++---------+--------+
+|        1|      93|
+|        2|      88|
+|        3|      43|
+|        4|      10|
++---------+--------+
+
+Students with no club: 16
+================================================================
+ 5. BONUS: CLUB PAIRS SHARING THE MOST STUDENTS
+================================================================
++-----------+-------------------+---------------+
+|name1      |name2              |shared_students|
++-----------+-------------------+---------------+
+|Coding Club|Sports Club        |12             |
+|Music Club |Dance Club         |10             |
+|Dance Club |Social Service Club|8              |
+|Coding Club|Music Club         |8              |
+|Dance Club |Sports Club        |8              |
++-----------+-------------------+---------------+
+only showing top 5 rows
+
+================================================================
+ 6. VISUALISATION SAVED
+================================================================
+output/network_dashboard.png  (static picture)
+output/network.html           (interactive - open in your browser)
+output/club_popularity.csv, multi_club_students.csv, club_overlap.csv

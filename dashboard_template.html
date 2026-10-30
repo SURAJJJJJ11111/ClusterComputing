@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Club Membership Network</title>
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--tx:#1d2330;--mut:#6b7385;--bd:#e2e5ec;--st:#378add;--cl:#d85a30;--ac:#1d9e75}
+@media(prefers-color-scheme:dark){:root{--bg:#14171d;--card:#1e222b;--tx:#e8eaf0;--mut:#98a0b3;--bd:#333948;--st:#5ba4ee;--cl:#f08a63;--ac:#3ac49a}}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--tx);padding:16px}
+h1{font-size:20px;margin:0 0 4px}p.s{margin:0 0 14px;color:var(--mut);font-size:13px}
+.k{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:12px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px}
+.v{font-size:24px;font-weight:600}.l{font-size:12px;color:var(--mut)}
+.g{display:grid;grid-template-columns:2fr 1fr;gap:12px}@media(max-width:800px){.g{grid-template-columns:1fr}}
+h2{font-size:14px;margin:0 0 8px}
+svg{width:100%;height:auto;display:block}
+.ed{stroke:var(--mut);stroke-opacity:.18;stroke-width:.7}.ed.on{stroke:var(--ac);stroke-opacity:1;stroke-width:1.8}
+.dim{opacity:.12}text{fill:var(--tx);font-size:11px}
+.bar{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:12px;cursor:pointer}
+.bar span:first-child{width:130px}.bar i{display:block;height:14px;background:var(--cl);border-radius:3px}
+.bar.top i{background:var(--ac)}#tip{font-size:13px;min-height:20px;color:var(--mut);margin-top:6px}
+</style></head><body>
+<h1>Club Membership Network</h1>
+<p class="s">Bipartite graph built with PySpark: students (blue) &harr; clubs (orange). Hover or tap a node or bar to highlight its connections.</p>
+<div class="k">
+<div class="c"><div class="v" id="k1"></div><div class="l">Students</div></div>
+<div class="c"><div class="v" id="k2"></div><div class="l">Clubs</div></div>
+<div class="c"><div class="v" id="k3"></div><div class="l">Memberships</div></div>
+<div class="c"><div class="v" id="k5"></div><div class="l">In multiple clubs</div></div>
+<div class="c"><div class="v" id="k4" style="font-size:18px"></div><div class="l">Most popular club</div></div>
+</div>
+<div class="g">
+<div class="c"><h2>Network graph</h2><svg id="net" viewBox="0 0 900 700"></svg><div id="tip">Hover a node to see details.</div></div>
+<div class="c"><h2>Club popularity (members)</h2><div id="bars"></div></div>
+</div>
+<script>
+const D=__DATA__;
+const $=id=>document.getElementById(id);
+$("k1").textContent=D.stats.students;$("k2").textContent=D.stats.clubs;$("k3").textContent=D.stats.memberships;
+$("k5").textContent=D.stats.multi;$("k4").textContent=D.best+" ("+D.ranking[0][1]+")";
+const NS="http://www.w3.org/2000/svg",svg=$("net");
+const el=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);(p||svg).appendChild(e);return e};
+const byId={};D.nodes.forEach(n=>byId[n.id]=n);
+const edges=D.edges.map(([u,v])=>({u,v,e:el("line",{class:"ed",x1:byId[u].x,y1:byId[u].y,x2:byId[v].x,y2:byId[v].y})}));
+const els={};
+D.nodes.filter(n=>n.kind=="student").forEach(n=>{els[n.id]=el("circle",{cx:n.x,cy:n.y,r:3+n.deg*1.5,fill:"var(--st)"})});
+D.nodes.filter(n=>n.kind=="club").forEach(n=>{
+  const g=el("g",{});el("circle",{cx:n.x,cy:n.y,r:12+n.deg*0.45,fill:n.name==D.best?"var(--ac)":"var(--cl)",stroke:"#fff","stroke-width":1.5},g);
+  el("text",{x:n.x,y:n.y-16-n.deg*0.45,"text-anchor":"middle","font-weight":"600"},g).textContent=n.name;els[n.id]=g});
+function hl(id){
+  const on=new Set();
+  edges.forEach(x=>{const h=id&&(x.u==id||x.v==id);x.e.classList.toggle("on",!!h);if(h){on.add(x.u);on.add(x.v)}});
+  for(const k in els)els[k].classList.toggle("dim",!!id&&!on.has(k)&&k!=id);
+  edges.forEach(x=>x.e.classList.toggle("dim",!!id&&!x.e.classList.contains("on")));
+  if(!id){$("tip").textContent="Hover a node to see details.";return}
+  const n=byId[id];
+  const nb=[...on].filter(k=>k!=id).map(k=>byId[k].name).sort();
+  $("tip").textContent=n.kind=="club"?n.name+": "+n.deg+" members":n.name+": "+n.deg+" club(s) - "+nb.join(", ");
+}
+for(const k in els){els[k].style.cursor="pointer";els[k].onmouseenter=()=>hl(k);els[k].onmouseleave=()=>hl(null);els[k].onclick=()=>hl(k)}
+const mx=D.ranking[0][1],idOf={};D.nodes.forEach(n=>idOf[n.name]=n.id);
+$("bars").innerHTML=D.ranking.map(r=>`<div class="bar${r[0]==D.best?" top":""}" data-id="${idOf[r[0]]}"><span>${r[0]}</span><i style="width:${r[1]/mx*55}%"></i><b>${r[1]}</b></div>`).join("");
+document.querySelectorAll(".bar").forEach(b=>{b.onmouseenter=()=>hl(b.dataset.id);b.onmouseleave=()=>hl(null)});
+</script></body></html>
